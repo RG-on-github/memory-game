@@ -1,0 +1,66 @@
+body{
+    font-family: 'Lilita One', sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+        "b-1 b-2 b-3 b-4"
+        "b-5 b-6 b-7 b-8"
+        "b-9 b-10 b-11 b-12"
+    ;
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+
+}
+
+.box{
+    border: 2px solid black;
+    height: 10rem;
+}
+.tin{
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    margin: 2rem 0 0 0;
+}
+.heading h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.start{
+    position: absolute;
+    right: 2.9rem;
+    bottom: 2rem;
+    width: 10.5rem;
+    height: 4rem;
+    background-color: #81b64c;
+    color: white;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px #45753c;
+    font-family: 'Lilita One', sans-serif;
+}
+
+.start:hover{
+    filter: brightness(108%);
+}
+
+.reset{
+    position: absolute;
+    left: 2.9rem;
+    bottom: 2rem;
+    width: 10.5rem;
+    height: 4rem;
+    background-color: #758169;
+    color: white;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px #2f302e;
+    font-family: 'Lilita One', sans-serif;
+}
+
+.reset:hover{
+    filter: brightness(108%);
+}
